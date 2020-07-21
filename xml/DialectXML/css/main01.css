@@ -1,0 +1,477 @@
+/*为了导航条不遮住前面内容*/
+body{
+    padding-top: 50px;
+}
+/* 导航栏-------------------- */
+.navbar{
+    border: none;
+    height: 50px;
+    background: #CD2626;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 10px;
+}
+.big_logo{
+    /*让图在顶层*/
+    position: fixed;
+    top: 10%;;
+    left: 12%;
+}
+
+/* 轮播图设置 */
+.carousel{
+    height: 500px;
+    background-color: #000;
+    margin-bottom:60px;
+}
+.carousel .item{
+    height: 500px;
+    background-color: #000;
+}
+.carousel .item img{
+    width:100%;
+}
+
+/* 我的家乡--贵州-------------------------------- */
+.main_desc{
+    width: 80%;
+    margin: -30px 0 0 10%;
+    text-align: center;
+    background: url("../images/bg_food01.JPEG");
+   /* background-size: 20%;*/
+    border-radius:40px;
+}
+.main_desc_text{
+    width: 220px;
+    height: 36px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    border-radius:40px;
+    background: #eeeeee;
+    opacity: 0.7;
+}
+.main{
+    background: url("../images/bg02.jpg");
+    opacity: 0.7;
+    border-radius:40px;
+    margin-bottom: 40px;
+}
+.main_all {
+    width: 100%;
+    height: 400px;
+    background: rgba(111,4,255,0);
+}
+.main_left{
+    width: 550px;
+    float: left;
+    margin-left: 10%;
+    margin-top: -20px;
+    margin-right: 8%;
+    position: absolute;
+    color: #3071a9;
+}
+.main_text {
+    text-indent:2em;
+}
+.main_address {
+    width: 550px;
+    height: 80px;
+    border: 1px dashed;
+    text-align: center;
+    color: #3071a9;
+}
+.main_address th{
+    text-align:center;
+    vertical-align:middle;
+}
+.line {
+    border: medium;
+    width: 1px;
+    height: 360px;
+    margin-left: 60%;
+    position: absolute;
+}
+
+/* 一个贵州人的北京--------------------- */
+.life_BJ{
+    width: 80%;
+    height: 676px;
+    margin: auto;
+}
+.BJ_title{
+    text-align: center;
+    border-radius:40px;
+    background: url("../images/bg_food02.jpg");
+}
+.title_BJtext{
+    width: 260px;
+    height: 36px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    border-radius:40px;
+    background: #eeeeee;
+    opacity: 0.7;
+}
+.dialect{
+    color: #5bc0de;
+}
+.mask{
+    width: 45%;
+    height: 60%;
+    background: rgba(0,0,0,0.3);
+    /*让图在顶层*/
+    position: fixed;
+    top: 20%;;
+    left: 3%;
+}
+.food{
+    width: 80%;
+    height: 80%;
+    margin: 5% 10%;
+    position: relative;
+}
+/* 对话一 */
+.topic_one {
+    width: 46%;
+    float: left;
+    display: none;
+}
+.one_left{
+    width:60%;
+    float:left;
+}
+.left_img{
+    width:80px;
+    height:100px;
+    margin-left: 10%;
+    margin-right: 10px;
+    float:left;
+}
+.left_text{
+    margin-top: 6%;
+    width:90%;
+    height: 90px;
+}
+.one_right{
+    width: 40%;
+    float:right;
+}
+.right_text{
+    margin-top: 16%;
+    width: 60%;
+    height: 90px;
+    float: left;
+}
+.right_img{
+    width:80px;
+    height:100px;
+    float: right;
+    margin-left: -20px;
+}
+/* 对话二 */
+.topic_two {
+    width: 46%;
+    float: right;
+    display: none;
+}
+.two_left {
+    width:60%;
+    float:left;
+}
+.two_right {
+    width: 40%;
+    float:right;
+}
+
+/* 贵州食品-------------------- */
+.food_GZ{
+    width: 90%;
+    height: 580px;
+    margin: auto;
+    background: rgb(255, 251, 240);
+    border-radius: 20px;
+}
+.food_title {
+    height: 36px;
+    border-radius:40px;
+    text-align: center;
+    background: url("../images/bg_food03.JPEG");
+}
+.title_text{
+    width: 133px;
+    height: 36px;
+    color: black;
+    margin-left: 43%;
+    text-align: center;
+    border-radius:40px;
+    background: #eeeeee;
+    opacity: 0.7;
+}
+.foodQ{
+    width: 35%;
+    height: 130px;
+}
+.food_left{
+    width: 48%;
+    float: left;
+}
+.food_right{
+    width: 48%;
+    float: right;
+}
+.food_text{
+    width: 65%;
+    float: right;
+}
+.food_textR{
+    width: 65%;
+    float: left;
+}
+.food_table{
+    border: 2px solid #d43f3a;
+    margin-top: 20px;
+}
+.food_table th{
+    width: 60px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    background-color: #cccccc;
+    border-radius: 0.6px;
+}
+.food_table td{
+    height: 30px;
+    font-size: 12px;
+    text-align: center;
+    color: #5bc0de;
+}
+.food_one{
+    width: 48%;
+    height: 300px;
+    float: left;
+}
+.food_two{
+    width: 48%;
+    float: right;
+}
+.food_three{
+    width: 48%;
+    float: left;
+}
+.food_four{
+    width: 48%;
+    float: right;
+}
+.food_img_desc{
+    margin-top: 20px;
+}
+.food_desc{
+    text-indent:2em;
+    margin-top: 20px;
+    color: #ac2925;
+}
+/* 日常对话---------------------------------*/
+.life_more{
+    width: 90%;
+    height: 840px;
+    margin: auto;
+}
+.life_title{
+    background: url("../images/bg_food04.jpeg");
+    height: 36px;
+    text-align: center;
+    border-radius:40px;
+    color: #fff;
+}
+.life_title_text{
+    width: 110px;
+    height: 36px;
+    color: black;
+    margin: auto;
+    text-align: center;
+    border-radius:40px;
+    background: #eeeeee;
+    opacity: 0.7;
+}
+.more{
+    width: 100%;
+    height: 360px;
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(245,245,245);
+    border-radius: 20px;
+}
+.more_me_desc{
+    font-size: 16px;
+}
+.more tr:nth-child(odd){
+    background: #ffffff;
+}
+.more_tname{
+    font-size: 20px;
+    background-color: #d43f3a;
+}
+.more_left{
+    width: 30%;
+    margin-top: 35px;
+    margin-left: 30px;
+    float: left;
+    display: none;
+}
+.more_center{
+    width: 18%;
+    text-align: center;
+    margin-left: 40%;
+}
+.more_center .row{
+    margin-top: 20px;
+}
+.more_right{
+    width: 30%;
+    margin-top: 35px;
+    float: right;
+    margin-right: 30px;
+    display: none;
+}
+/* 日常对话更多----------*/
+.more_desc{
+    height: 400px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background: url("../images/bg01.jpg");
+    padding: 10px;
+}
+.more_desc_img{
+    width: 25%;
+    height: 75%;
+    margin: 35px;
+    float: left;
+}
+.more_desc_line{
+    border: 2px solid #ffffff;
+    width: 1px;
+    height: 360px;
+    margin-top: 5px;
+    margin-left: 33%;
+}
+
+.more_desc_right{
+    width: 300px;
+}
+.pics_3d{
+    position: absolute;
+    width: 700px;
+    height: 330px;
+    /*overflow: hidden;*/
+    background: #666;
+    border-bottom: 20px solid #420000;
+    border-top: 20px solid #420000;
+    border-radius: 3px;
+    margin-top: 20px;
+    left: 40%;
+    overflow:hidden ;
+}
+.pics_3d li{
+    height: 240px;
+    position: absolute;
+    background: #eee;
+    top: -3px;
+    margin-left: -155px;
+    border: 5px solid #00CCFF;
+}
+.left_desc{
+    margin-left: 5px;
+    float: left;
+}
+.left_desc img{
+    width: 130px;
+    height: 180px;
+}
+.right_desc{
+    width: 50%;
+    float: right;
+}
+/* music 音乐--------------------------------*/
+.music{
+    width: 90%;
+    height: 500px;
+    margin: auto;
+    background: url("../images/bg04.gif");
+    border-radius: 30px;
+}
+.title_music {
+    text-align: center;
+    border-radius:40px;
+    background: #5e5e5e;
+    color: white;
+}
+.music_lyric{
+    width: 46%;
+    height: 360px;
+    text-align: center;
+    overflow: scroll;
+    float: left;
+    font-family: 楷体;
+    font-size: 22px;
+    color: #ac2925;
+    margin-top: 20px;
+    margin-left: 100px;
+    overflow-x: hidden;
+}
+.music_desc{
+    width: 250px;
+    float: right;
+    margin-right: 120px;
+}
+.desc_music{
+    margin-left: 10px;
+}
+.music_left img{
+    width: 300px;
+    height: 300px;
+}
+.ending{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    border-radius:40px;
+    background: #5e5e5e;
+    color: white;
+}
+/* 关于------------------------------------*/
+.about{
+    background:#000000;
+    text-align:center;
+    font:normal 14px/20px 'MicroSoft YaHei';
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+/* 百度地图-------------------*/
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}
+#dituContent{
+    width:380px;
+    height:380px;
+    margin-left: 66%;
+    border:#ccc solid 1px;
+    position: absolute;
+}

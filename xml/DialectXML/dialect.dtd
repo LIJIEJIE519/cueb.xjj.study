@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!ELEMENT 方言 (昵称,头像,地理位置,方言分区,词条+)>
+<!ELEMENT 地理位置 (省,市?,区,乡镇,村街道?,经度,纬度,备注?)>
+<!ELEMENT 昵称 (#PCDATA)>
+<!ELEMENT 头像 (#PCDATA)>
+<!ELEMENT 省 (#PCDATA)>
+<!ELEMENT 市 (#PCDATA)>
+<!ELEMENT 区 (#PCDATA)>
+<!ELEMENT 乡镇 (#PCDATA)>
+<!ELEMENT 村街道 (#PCDATA)>
+<!ELEMENT 经度 (#PCDATA)>
+<!ELEMENT 纬度 (#PCDATA)>
+<!ELEMENT 方言分区 (#PCDATA)>
+<!ELEMENT 词条 (词汇,拼音,音调,词义,英语词义,释义,词性,例句,反义词?,拓展?,插图?,备注?)>
+<!ELEMENT 拓展 (词汇,方言分区,拼音,音调,词义,英语词义,释义,词性,例句,插图?,备注?)>
+<!ELEMENT 词汇 (#PCDATA)>
+<!ELEMENT 拼音 (#PCDATA)>
+<!ELEMENT 音调 (#PCDATA)>
+<!ELEMENT 词义 (#PCDATA)>
+<!ELEMENT 英语词义 (#PCDATA)>
+<!ELEMENT 释义 (#PCDATA)>
+<!ELEMENT 词性 (#PCDATA)>
+<!ELEMENT 例句 (#PCDATA)>
+<!ELEMENT 反义词 (#PCDATA)>
+<!ELEMENT 插图 (#PCDATA)>
+<!ELEMENT 备注 (#PCDATA)>
+
+<!ATTLIST 词条 class CDATA #IMPLIED>
+<!ATTLIST 拓展 类型 CDATA #IMPLIED>
