@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="xjj.com.luomusic.WebMusicActivity">
+
+    <ProgressBar
+        android:id="@+id/webProgress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:indeterminateDrawable="@drawable/progress"
+        style="@android:style/Widget.ProgressBar.Large"
+        />
+    <TextView
+        android:id="@+id/load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="正在努力加载"
+        android:textSize="20sp"
+        android:layout_gravity="center"/>
+
+    <ListView
+        android:id="@+id/webMusicList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/music_float" />
+
+</FrameLayout>

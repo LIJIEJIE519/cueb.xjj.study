@@ -1,0 +1,48 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xjj.com.luomusic.MainFragment">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/music_gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        android:alpha="0.8"
+        android:background="@drawable/g2">
+
+    </pl.droidsonroids.gif.GifImageView>
+
+    <!-- 控制播放暂停 -->
+    <ImageButton
+        android:id="@+id/imgBt"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:animateLayoutChanges="true"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:background="@color/transparent"
+        android:src="@drawable/gif_pause"/>
+    <!-- 收藏按钮 -->
+    <ImageButton
+        android:id="@+id/collect"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/collection_no"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="150dp"
+        android:background="@color/transparent"
+        android:layout_marginRight="8dp"/>
+    <!-- 下一首 -->
+    <ImageButton
+        android:id="@+id/gif_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/gif_next"
+        android:layout_gravity="bottom|right"
+        android:layout_marginBottom="100dp"
+        android:background="@color/transparent"
+        android:layout_marginRight="8dp"/>
+
+</FrameLayout>

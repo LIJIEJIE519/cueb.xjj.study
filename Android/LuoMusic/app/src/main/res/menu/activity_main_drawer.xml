@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_message"
+            android:icon="@drawable/item_message"
+            android:title="我的消息" />
+        <item
+            android:id="@+id/item_scan"
+            android:icon="@drawable/item_scan"
+            android:title="扫描本地" />
+        <item
+            android:id="@+id/item_change_color"
+            android:icon="@drawable/item_change_color"
+            android:title="一键换肤" />
+        <item
+            android:id="@+id/item_update"
+            android:icon="@drawable/item_update"
+            android:title="版本更新" />
+    </group>
+
+    <item android:title="关于">
+        <menu>
+            <item
+                android:id="@+id/item_login"
+                android:icon="@drawable/item_login"
+                android:title="登录" />
+            <item
+                android:id="@+id/item_exit"
+                android:icon="@drawable/item_exit"
+                android:title="退出" />
+        </menu>
+    </item>
+
+</menu>

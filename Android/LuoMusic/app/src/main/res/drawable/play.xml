@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 选中或单击状态下是一种图片，其他状态下是另外一种图片 -->
+    <item android:state_selected="true" android:drawable="@drawable/play_press"/>
+    <item android:state_pressed="true" android:drawable="@drawable/play_press"/>
+    <item  android:drawable="@drawable/play_normal"/>
+</selector>

@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="item_message" type="drawable">@drawable/item_message</item>
+    <item name="item_scan" type="drawable">@drawable/item_scan</item>
+    <item name="item_change_color" type="drawable">drawable/item_change_color</item>
+    <item name="item_update" type="drawable">@drawable/item_update</item>
+    <item name="item_login" type="drawable">@drawable/tab_nmine</item>
+    <item name="item_exit" type="drawable">@drawable/item_exit</item>
+</resources>

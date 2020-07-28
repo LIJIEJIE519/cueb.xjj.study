@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="36dp"
+    android:gravity="center"
+    android:id="@+id/bottom"
+    android:background="@color/transparent">
+
+    <!-- 音乐列表 -->
+    <LinearLayout
+        android:id="@+id/tab_playList"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/tab_list_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="30dp"
+            android:background="@drawable/tab_nplaylist"
+            android:clickable="false" />
+    </LinearLayout>
+
+    <!-- 主音乐 -->
+    <LinearLayout
+        android:id="@+id/tab_mainMusic"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/tab_mian_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/tab_main_press"/>
+    </LinearLayout>
+
+    <!-- 我的 -->
+    <LinearLayout
+        android:id="@+id/tab_mine"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/tab_mine_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:clickable="false"
+            android:background="@drawable/tab_nmine"
+            android:layout_marginRight="30dp" />
+    </LinearLayout>
+
+</LinearLayout>

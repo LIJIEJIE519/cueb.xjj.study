@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#28be9b</color>
+    <!-- 最上面导航栏 -->
+    <color name="colorPrimaryDark">#28be9b</color>
+    <color name="colorAccent">#00000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorAll02">#26a8f2</color>
+    <color name="colorAll03">#903e88</color>
+    <color name="colorAll04">#df0e0e</color>
+
+</resources>

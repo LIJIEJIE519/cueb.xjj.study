@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bec7c3"
+    tools:context="xjj.com.luomusic.MainFragment">
+
+    <!-- 下拉刷新控件，该布局会选第一个子控件，其他覆盖 -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/transparent">
+
+        <ImageView
+            android:id="@+id/bing_pic_img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:alpha="0.8"
+            android:src="@drawable/allbg01"
+            android:scaleType="centerCrop"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+
+        <xjj.com.WebUtil.RoundImageView
+            android:id="@+id/mine_logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:src="@drawable/mine_logo"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/mine_listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp">
+
+    </ListView>
+</FrameLayout>
