@@ -1,0 +1,74 @@
+import pandas as pd
+
+#导入数据
+
+df = pd.read_csv('data.csv', index_col = '年份')
+pd.head()
+y = df['人均GDP'].values
+x = df.index.values
+
+#设置字体
+
+from pylab import mpl
+mpl.rcParams['font.sans-serif'] = ['Fangsong']  #设置字体
+mpl.rcParams['axes.unicode_minus'] = False  	#负号--显示为方块
+
+#导入画图
+
+import matplotlib.pyplot as plot
+
+fig = plot.figure()
+ax1 = fig.add_subplot(221)   #几行几列
+ax2 = fig.add_subplot(222)
+ax3 = fig.add_subplot(223)
+
+#保存图片
+fig.savefig('myfig.png')
+
+fig, ax = plot.subplots()
+ax.plot(x,y,'r*--')								#折线图
+ax.set(xlabel = '年份', ylabel = '人均GDP', title = '人均GDP走势图'
+plot.show()
+
+ax.bar(x,y,0.5, color = 'blue')					#柱形图
+plot.show()
+
+ax.barh(x,y,0.5, color = 'skyblue')				#水平柱形图
+ax.set(xlabel='年份', ylabel='人均GDP', title='人均GDP走势图')
+plot.show()
+
+ax.pie(y,labels=x)								#饼图
+ax.set(xlabel='年份', ylabel='人均GDP', title='人均GDP走势图')
+plot.show()
+
+ax.pie(y[:5],labels=x[:5])    					#选取5个年份
+ax.set(xlabel='年份', ylabel='人均GDP', title='人均GDP走势图')
+plot.show()
+
+ax.pie(y[:5],labels=x[:5],explode=(0,0.05,0.1,0.15,0.2))		#间隔
+ax.set(xlabel='年份', ylabel='人均GDP', title='人均GDP走势图')
+plot.show()
+
+
+ax.scatter(df['各项贷款余额'],df['不良贷款（亿元）'])			#散点图
+ax.set_title('散点图')
+ax.set_xlabel('各项贷款余额',fontsize = 20)
+plot.show()
+
+
+
+#另一种画图方式
+
+#导入
+import pandas as pd
+from pandas import DataFrame,Series
+
+df = pd.read_csv('data.csv',index_col = '年份')
+df.head()
+
+df['人均GDP（元）'].plot(color = 'r')			#折线图
+plot.show()
+
+df['人均GDP（元）'].plot(kind='bar')			#柱形图
+plot.show()
+	

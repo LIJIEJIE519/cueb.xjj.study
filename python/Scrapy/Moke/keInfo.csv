@@ -1,0 +1,122 @@
+,课程名,等级,访问量,课程描述,图片地址
+0,Python最火爬虫框架Scrapy入门与实践,初级,4419,做为爬虫工程师Python Scrapy主流爬虫框架你必须要会！,//img4.mukewang.com/5b39cfff0001a2ed06000338-240-135.jpg
+1,用GO语言构建自己的区块链,初级,4962,区块链自己动手实现一把，啥都明白了。,//img.mukewang.com/5b2218750001370806000338-240-135.jpg
+2,HBase 存储原理剖析,高级,3481,从底层存储架构分析HBase存储数据的原理,//img1.mukewang.com/5b0248080001dcc306000338-240-135.jpg
+3,Java9之模块系统,初级,8421,实例驱动的Java 9平台模块系统实战开发,//img.mukewang.com/5b025dbd00015d1a06000338-240-135.jpg
+4,TensorFlow与Flask结合打造手写体数字识别,中级,4122,TensorFlow和flask结合识别自己的手写体数字,//img.mukewang.com/5afe7ffa00018fff06000338-240-135.jpg
+5,Storm基础入门,初级,5831,"带你快速入门Storm,对数据进行实时流式计算",//img3.mukewang.com/5af553c300015fb806000338-240-135.jpg
+6,区块链技术核心概念与原理讲解,入门,17947,登链科技首席技术官(Tiny熊），为你讲解区块链技术核心概念与原理,//img4.mukewang.com/5ae3e5b80001818c06000338-240-135.jpg
+7,Go并发编程案例解析,中级,5094,课程带你通过一个真实的线上日志监控系统学习Golang以及并发的编程思想。,//img4.mukewang.com/5ad9c04900010ee306000338-240-135.jpg
+8,Shiro安全框架入门,中级,14668,从零入门Shiro安全框架,//img.mukewang.com/5acd8d3e0001881a06000338-240-135.jpg
+9,Python实现线性回归,初级,12372,掌握python进行线性回归分析的原理及编程实践,//img.mukewang.com/5abc6159000142f706000338-240-135.jpg
+10,GO语言语法入门篇,入门,13692,Go编译的程序可以媲美C或C++代码的速度，更加安全、支持并行进程,//img.mukewang.com/5aaf5f370001c40306000338-240-135.jpg
+11,SpringBoot开发常用技术整合,中级,32593,SpringBoot 极简开发的框架整合利器,//img3.mukewang.com/5a9f83e90001f06306000338-240-135.jpg
+12,ajax跨域完全讲解,中级,32631,完全讲解Ajax跨域产生的原因和解决思路，掌握跨域的各种解决方案,//img.mukewang.com/5a7d64da0001032d06000338-240-135.jpg
+13,SpringBoot+MyBatis搭建迷你小程序,中级,34424,SpringBoot+MyBatis搭建小程序后台,//img2.mukewang.com/5a72827d0001cb8006000338-240-135.jpg
+14,Python人工智能常用库Numpy使用入门,初级,19427,Python人工智能常用库Numpy简单入门,//img4.mukewang.com/5a7048580001670506000338-240-135.jpg
+15,Netty入门之WebSocket初体验,中级,12119,由浅入深了解Java高性能NIO通信首选框架——Netty,//img1.mukewang.com/5a6946f200017b5c06000338-240-135.jpg
+16,PhpStorm的基本应用,入门,15100,PHP开发者神器PhpStorm ,//img1.mukewang.com/5a6190720001551506000338-240-135.jpg
+17,基于SpringBoot  十分钟搞定后台管理平台,中级,15862,大道至简之Guns框架介绍，带你领略代码自动生成,//img1.mukewang.com/5a5824c100019a8506000338-240-135.jpg
+18,Python制作数据分析工具,初级,15738,用Python制作一个高效的数据诊断工具,//img1.mukewang.com/5a5854970001e9a106000338-240-135.jpg
+19,python必学模块-collections,初级,11267,快速理解python中基于基础数据结构的高级数据结构，让代码更精简且高效。,//img3.mukewang.com/5a7176a300010c1706000338-240-135.jpg
+20,Spring Boot 2.0深度实践-初遇Spring Boot,中级,26734,Spring Boot 2.x/Web Flux/多模块化项目实践,//img1.mukewang.com/5a52ee3500016ec706000338-240-135.jpg
+21,Go语言开发微信公众号,中级,12441,想用Go语言做微信公众号的开发么？,//img.mukewang.com/5a409d3100019c4406000338-240-135.jpg
+22,搭建并行处理管道，感受GO语言魅力,中级,8207,通过搭建并行数据处理管道，展示go语言在并发编程方面的优势			,//img1.mukewang.com/5a321bac00013f9506000338-240-135.jpg
+23,IntelliJ IDEA神器使用技巧,中级,49851,充分利用intellij idea各类技巧来提高你的开发效率,//img.mukewang.com/5a2f4d7f00012c8106000338-240-135.jpg
+24,CDN与智能DNS原理和应用,中级,11816,CDN可以让用户更快速访问我们的互联网内容，也可以支持更大规模的访问量,//img1.mukewang.com/5a0ae20a000173ed06000338-240-135.jpg
+25,Spring Boot热部署,中级,24219,Spring Boot热部署的原理和实现,//img2.mukewang.com/5a0948f900011d3a06000338-240-135.jpg
+26,Beanstalkd-带你玩转消息队列,中级,5406,beanstalkd-轻松驾驭PHP消息队列，带你一起挖掘消息处理的真实逻辑！,//img2.mukewang.com/5a0018470001386b06000338-240-135.jpg
+27,DevOps和云计算初识,初级,9260,学习DevOps和云计算的初步知识,//img3.mukewang.com/59f68815000169b006000338-240-135.jpg
+28,PHP中的会话控制,初级,11107,带你了解PHP中的会话控制技术。,//img4.mukewang.com/59c3917900011b8106000338-240-135.jpg
+29,RxJava与RxAndroid基础入门,初级,14241,RxJava与RxAndroid入门,//img.mukewang.com/5981a729000188dc06000338-240-135.jpg
+0,初识机器学习-理论篇,入门,96990,带你认识机器学习，一些经典的算法，最后是Demo演示,//img4.mukewang.com/57cfa226000150c206000338-240-135.jpg
+1,轻松学会Laravel-基础篇,中级,44233,Laravel框架基础视频教程，轻松入门，了解Laravel的优势,//img1.mukewang.com/57a2bd030001018806000338-240-135.jpg
+2,JSON快速入门（Java版）,初级,86402,JSON和GSON的应用，JSON快速入门视频教程，赶快加入吧,//img.mukewang.com/561dfda500011a4325001408-240-135.jpg
+3,python遇见数据采集,初级,45298,本教程让你初步掌握Python进行数据采集，创造属于你的价值,//img4.mukewang.com/57bd19f40001462006000338-240-135.jpg
+4,基于SSH实现员工管理系统之案例实现篇,中级,42655,SSH框架整合案例之实现篇，手把手带你实现员工管理系统,//img3.mukewang.com/57a1ca250001b2f206000338-240-135.jpg
+5,基于SSH实现员工管理系统之框架整合篇,中级,42020,本视频教程主要介绍环境搭建和SSH框架整合，逐层深入理解学习,//img3.mukewang.com/57a1ca0a00016fcc06000338-240-135.jpg
+6,Java生成二维码,初级,71308,二维码无处不在，自己动手用Java生成二维码，三种生成方式任你选,//img2.mukewang.com/562f25980001b1b106000338-240-135.jpg
+7,数据结构探险之图篇,中级,44797,图是众多实际问题解决方案之源，从基础概念入手掌握图的处理,//img1.mukewang.com/576a0b0a000128b606000338-240-135.jpg
+8,Java实现权限管理（下）,中级,31551,权限管理系统控制层实现及优化，学习如何使用SpringMVC+Spring,//img2.mukewang.com/56e6069500017a6b06000338-240-135.jpg
+9,数据结构探险之树篇,中级,42753,树，将为你开启更精彩的数据结构大门，了解更多概念,//img.mukewang.com/576a4a56000119fa06000338-240-135.jpg
+10,Java实现权限管理（上）,中级,52463,Java权限管理系列教程之权限管理系统DAO层和服务层实现,//img.mukewang.com/56e291b40001f72f06000338-240-135.jpg
+11,PHP微信公众平台开发高级篇—生成二维码接口,高级,26043,微信扫描，值得你拥有，本教程主要讲解二维码接口的实现,//img3.mukewang.com/56e10d8c0001e22e06000338-240-135.jpg
+12,JSP自定义标签,初级,25063,JSP自定义标签应用，Java Web开发中一个重要的知识点,//img2.mukewang.com/5787418d0001543506000338-240-135.jpg
+13,数据结构探险之线性表篇,中级,43590,线性表的主体顺序表和链表，让学员能够将知识融会贯通学以致用,//img3.mukewang.com/5719fb5a00019e5c06000338-240-135.jpg
+14,PHP微信公众平台开发高级篇—微信JS-SDK,高级,29074,JS-SDK微信交互引擎，诸多功能提供更优质的网页体验,//img.mukewang.com/56e10d9c0001e83306000338-240-135.jpg
+15,PHP微信公众平台开发高级篇—网页授权接口,高级,24324,一招获取微信用户资料信息，进而实现业务逻辑，完美,//img3.mukewang.com/56e10dac0001a30c06000338-240-135.jpg
+16,Java高并发秒杀API之高并发优化,高级,58835,Java实现高并发秒杀API的第四门课，小伙伴一定可以从中受益,//img2.mukewang.com/5733e336000141f806000338-240-135.jpg
+17,PHP微信公众平台开发高级篇—模板消息接口,高级,19144,模板消息，快到碗里来，可以应用于刷卡通知，商品购买成功通知,//img2.mukewang.com/56e10dc00001c13106000338-240-135.jpg
+18,PHP微信公众平台开发高级篇—群发接口,高级,16572,不群发，无微信，通过本教程学习实现更灵活的群发能力,//img.mukewang.com/56e10dd4000108d706000338-240-135.jpg
+19,Java高并发秒杀API之web层,高级,51541,Java实现高并发秒杀API的第三门课，介绍Web层的设计和实现,//img2.mukewang.com/5733e1c00001516f06000338-240-135.jpg
+20,Java高并发秒杀API之Service层,高级,46479,Java实现高并发秒杀API，介绍秒杀业务Service层的设计和实现,//img1.mukewang.com/5733de380001615d06000338-240-135.jpg
+21,PHP微信公众平台开发高级篇—自定义菜单,中级,26147,自定义菜单是微信开发中必不可少的环节，约吗？,//img2.mukewang.com/56e10de50001f0b606000338-240-135.jpg
+22,Java高并发秒杀API之业务分析与DAO层,高级,64531,Java实现高并发秒杀API的第一门课，还等什么，赶快来加入吧,//img3.mukewang.com/572bff580001c7a006000338-240-135.jpg
+23,Java实现图片等比例缩略图,初级,22563,视频教程以实例的方式，讲解Java平台实现图片等比例缩略图生成,//img4.mukewang.com/5677b29b0001fe3e06000338-240-135.jpg
+24,数据结构探险—栈篇,中级,50786,栈，先入后出(FILO)，带领大家体会栈这种数据结构的美妙,//img4.mukewang.com/56d3f1d00001519006000338-240-135.jpg
+25,SpringMVC数据绑定入门,中级,59706,"Geely带你认识SpringMVC各种数据绑定，学习相关注解的使用
+",//img3.mukewang.com/578741ae00019a6906000338-240-135.jpg
+26,PHP第三方登录—微博登录,中级,21325,使用微博官方SDK快速接入微博登录，绝对不应该错过本门课程,//img3.mukewang.com/56e1321f0001550c06000338-240-135.jpg
+27,Java 分页原理与实践（下）,初级,33982,Java 分页原理，用Hibernate实现下拉加载分页效果,//img4.mukewang.com/5617949a0001ddb606000338-240-135.jpg
+28,Ajax技术在购物车中的应用（PHP篇）,初级,36811,用购物车实例带你体验Ajax在项目中的设计思想和用户体验性,//img1.mukewang.com/56cd23a50001595f06000338-240-135.jpg
+29,从零开始打造自己的PHP框架,中级,39745,和我一起开发一套属于自己的PHP框架，自己开发的才是最好用的,//img4.mukewang.com/57a2aa410001189006000338-240-135.jpg
+0,Java模板引擎之Freemarker,中级,29230,学习Java模板引擎中Freemarker技术，web开发人员必要掌握的技术之一,//img1.mukewang.com/589d25820001497206000338-240-135.jpg
+1,重定向和伪静态在网站中的应用,中级,12202,"重定向和伪静态,网站安全SEO优化必学，演示各种重定向设置后效果",//img3.mukewang.com/58807245000110e206000338-240-135.jpg
+2,RBAC打造通用web管理权限,中级,13949,RBAC为商业系统安全防范手段，结合理论和实战介绍RBAC,//img4.mukewang.com/5885a1f5000113a506000338-240-135.jpg
+3,微信授权登录,中级,51446,教你如何用Java实现微信授权登录，最后介绍公众号和开发平台如何关联,//img2.mukewang.com/587c69610001b37b06000338-240-135.jpg
+4,django入门与实践,初级,43376,手把手带你进入Django开发的大门，充分领略Django的魅力,//img3.mukewang.com/586f60d90001776a06000338-240-135.jpg
+5,微服务架构在二手交易平台（转转）中的实践,高级,15944,本课程是大会分享内容，微服务架构在转转(58集团)的落地实践,//img.mukewang.com/586395f4000145e006000338-240-135.jpg
+6,Dwr实现JAVA服务器端向客户端推送消息,中级,13656,dwr轻松帮你实现server push。,//img2.mukewang.com/5861d2500001d39406000338-240-135.jpg
+7,PHP扩展安装指南,中级,9444,PHP扩展你掌握了吗，通过学习本教程能够加深PHP扩展的管理和安装,//img1.mukewang.com/58329e8a0001068806000338-240-135.jpg
+8,Java实现SSO单点登录,初级,37720,Java视频教程介绍实现同域和跨域SSO，对核心技术和原理进行分析,//img1.mukewang.com/56e6177e0001fada06000338-240-135.jpg
+9,PHP+AJAX实现表格实时编辑,初级,17573,PHP和AJAX实现表格动态实时编辑案例，轻松实现最好的用户体验,//img4.mukewang.com/582917110001705506000338-240-135.jpg
+10,2小时学会Spring Boot,初级,128026,Spring Boot入门视频教程，你将学会使用Spring Boot快速构建应用程序,//img.mukewang.com/5847d579000178ac06000338-240-135.jpg
+11,PHP进阶篇-GD库图像处理,初级,8167,想通过PHP中GD函数库灵活操作图像吗，点击学习本教程可以实现,//img2.mukewang.com/58329bdb00011cca06000338-240-135.jpg
+12,Ruby语言快速入门,入门,12291,Ruby基础入门教程，让十一年老兵带你走进ruby入门，了解入门知识,//img4.mukewang.com/5844cb380001bddf06000338-240-135.jpg
+13,PHP进阶篇-日期时间函数,入门,11307,PHP开发中常用功能，日期时间函数库的使用，干货满满的教程,//img1.mukewang.com/58329cbf0001357406000338-240-135.jpg
+14,使用SpringMVC+Spring+Hibernate开发人员信息管理功能,中级,51829,Java常用框架整合案例，通过本案例的学习还可以体会项目的实现流程,//img4.mukewang.com/55d289f60001931006000338-240-135.jpg
+15,PHP中的HTTP协议,中级,27116,PHP视频教程从PHP的角度深度解析HTTP协议知识，例如post、和get请求,//img2.mukewang.com/58339ab600019e4206000338-240-135.jpg
+16,PHP进阶篇-字符串操作,初级,12192,PHP进阶教程，本课程主要讲解php中字符串及常用字符串函数使用,//img1.mukewang.com/57fefb1c000165c306000338-240-135.jpg
+17,python-web.py开发入门,初级,43349,web.py开发入门入门教程，讲解一个你最快能学会的web开发的框架,//img2.mukewang.com/58257a3b000164cd06000338-240-135.jpg
+18,PHP项目中的Gitflow多人协作开发工作流,中级,8675,一个围绕项目发布的严格git分支模型，让我们一睹Gitflow的风采,//img4.mukewang.com/581ad6880001154b06000338-240-135.jpg
+19,轻松学会Laravel-高级篇,高级,22546,Laravel框架高级教程，介绍Laravel提供的工具和功能，快来体验,//img2.mukewang.com/581bec530001202106000338-240-135.jpg
+20,PHP进阶篇-函数,初级,17675,PHP入门必看教程，带你掌握PHP如何自定义函数和分析常见问题,//img3.mukewang.com/57fdecf80001fb0406000338-240-135.jpg
+21,PHP之Yii2框架搭建完整博客系统,中级,18076,Yii是PHP快速开发的最佳实践之一，一起领略yii2快速开发的风采,//img1.mukewang.com/5800c1ea0001868f06000338-240-135.jpg
+22,Servlet+Ajax实现搜索框智能提示,初级,32303,Java实现搜索框智能提示，熟练掌握使用Servlet和Ajax,//img4.mukewang.com/5775e9cb00013c9606000338-240-135.jpg
+23,大型PHP电商网站商品秒杀功能实现思路分析,中级,20645,本课程属于PHP高级教程，汇集前沿技术，实现商品秒杀，小白慎入		,//img.mukewang.com/57de2e670001dedf06000338-240-135.jpg
+24,php+mysql 模拟队列发送邮件,中级,12903,使用队列方式异步发送邮件防页面卡死，学完就知道强大之处,//img.mukewang.com/57de28f80001651506000338-240-135.jpg
+25,PHP环境LAMP/LNMP安装与配置,初级,36033,本课程适于PHP初学者，手把手教你LAMP/LNMP环境安装配置,//img4.mukewang.com/57eb9feb000106ec06000338-240-135.jpg
+26,Python在数据科学中的应用,中级,45447,一门针对数据科学的Python应用教程，打下扎实python功底,//img2.mukewang.com/57e8afc00001f19d06000338-240-135.jpg
+27,轻松学会Laravel-表单篇,中级,24058,Laravel框架是世界上最流行的PHP框架，没有之一,//img1.mukewang.com/57a2e0600001e30906000338-240-135.jpg
+28,Python-面向对象,中级,44724,Python面向对象教程，带你深入了解python面向对象特性,//img.mukewang.com/580fff7a0001541206000338-240-135.jpg
+29,Python-走进Requests库,中级,30927,python类库中，requests是一件利器，想深入了解一起来学吧,//img3.mukewang.com/57fdb282000186df06000338-240-135.jpg
+0,使用Google Guice实现依赖注入,高级,6362,谷歌大神带你重新理解依赖注入，示范Guice和Spring Boot如何协作,//img1.mukewang.com/59dc2a180001f0a112010679-240-135.jpg
+1,PHP-面向对象,初级,20791,从面相过程到面向对象，带你深入理解面向对象编程思想，体验编程的奥妙！,//img.mukewang.com/59acb1650001adce06000338-240-135.jpg
+2,探秘Spring AOP,高级,33453,让我们一起探秘Spring Aop,//img1.mukewang.com/597fe9340001624e06000338-240-135.jpg
+3,web安全之SQL注入,中级,19613,SQL注入是整个WEB安全领域中比较重要的一部分,//img2.mukewang.com/5991489e00019f5c06000338-240-135.jpg
+4,浅析SQLmap,中级,9198,如何开发一个既稳定又安全的web系统？那来学习web安全吧.,//img1.mukewang.com/5977373b0001318505910331-240-135.jpg
+5,Python 全栈案例初体验,初级,38400,带你领略全栈开发的速度与激情,//img3.mukewang.com/598287cd00014dc606000338-240-135.jpg
+6,实例学习 PHP QRCode生成二维码,中级,11060,本门课程主要讲解如何使用 PHP 生成识别二维码!,//img1.mukewang.com/5968262c00011d2606000338-240-135.jpg
+7,Java消息中间件,高级,38517,使用Java消息中间件处理异步消息,//img2.mukewang.com/59632b220001afe505960335-240-135.jpg
+8,PHP消息队列实现及应用,中级,18912,消息队列是个什么玩意儿，使用队列解决秒杀等实际问题概念和使用方法,//img1.mukewang.com/594b40910001a47e06000338-240-135.jpg
+9,python自动化运维篇,入门,26577,如何把运维的工作流程化、标准化、自动化已经是迫在眉睫的问题。,//img2.mukewang.com/598186000001813106000338-240-135.jpg
+10,快速入门ThinkPHP 5.0 --模型篇,中级,16388,"Thinkphp5.0已发布多时,想了解thinkphp 5.0的新特性吗？老司机点准时出发",//img1.mukewang.com/594cf6120001ddaf06000338-240-135.jpg
+11,Java定时任务调度工具详解之Quartz篇,初级,21398,Java定时任务调度工具详解之Quartz篇,//img.mukewang.com/5940992d0001cae906000338-240-135.jpg
+12,使用java构建和维护接口自动化测试框架,中级,18239,初识接口自动化框架,//img.mukewang.com/593a3b0f0001383606000338-240-135.jpg
+13,SVN从入门到放弃,高级,15328,SVN-Ubuntu命令行操作 带你玩转SVN从基础命令深入高级应用,//img3.mukewang.com/5934bac20001a5c906000338-240-135.jpg
+14,Python数据分析-基础技术篇,初级,51603,使用Python进行数据分析的基础模块简介,//img3.mukewang.com/5922cc5800011d9e06000338-240-135.jpg
+15,Discuz!X二次开发——前台篇,高级,6001,Discuz你一定听说过，一起跟着我搞定Discuz二次开发，与众不同！,//img.mukewang.com/590c54d40001973c06000338-240-135.jpg
+16,Java定时任务调度工具详解之Timer篇,中级,18701,Java定时任务调度工具详解之Timer篇,//img4.mukewang.com/59195b4a00019b0d06000338-240-135.jpg
+17,Redis入门,中级,61977,本课程为Redis和Jedis使用的入门级教程，对Redis有初步了解,//img2.mukewang.com/5914272e0001254d06000338-240-135.jpg
+18,快速入门ThinkPHP 5.0--基础篇,中级,35123,ThinkPHP5已发布多时，想了解ThinkPHP5的新特性吗？老司机带你马上出发~,//img3.mukewang.com/5908721f0001539606000338-240-135.jpg
+19,PHP函数篇,入门,15899,自定义函数，PHP入门教程之必备课程，行业大牛带你飞。,//img3.mukewang.com/58f85fb20001139f06000338-240-135.jpg
+20,新一代构建工具gradle,中级,23565,gradle轻松入门教程，学习本课对gradle进行初步了解,//img4.mukewang.com/590a904f0001138f06000338-240-135.jpg
+21,第一个docker化的java应用,中级,36280,逐步学习docker相关知识，制作第一个docker化的java应用,//img1.mukewang.com/58f0a2310001ea1306000338-240-135.jpg
+22,php构建即时通讯系统,中级,21309,PHP不仅可以构建Web项目，还可以构建即时通讯应用:如实时聊天、在线游戏,//img2.mukewang.com/58ec5443000171ca06000338-240-135.jpg
+23,轻松愉快之玩转SpringData,中级,22656,利用Spring Data提高开发效率，提升程序员的幸福指数,//img2.mukewang.com/58e6081c00012ec206000338-240-135.jpg
+24,机器学习-实现简单神经网络,初级,50133,人工智能时代，你准备好成为抓住机遇的那百分之二吗。,//img1.mukewang.com/58cf6639000183f406000338-240-135.jpg
+25,Restful API实战,中级,29956,PHP后端开发者如何迎上移动互联网发展热潮？,//img3.mukewang.com/58c65abe0001269e06000338-240-135.jpg
+26,Spring Boot进阶之Web进阶,中级,60931,《2小时学习Spring Boot》之进阶教程，针对Web方面的相关技巧,//img4.mukewang.com/58c2856500012b7e06000338-240-135.jpg
+27,Java实现邮箱验证,初级,26252,本视频教程主要介绍如何使用JavaMail进行邮箱验证，由浅入深,//img.mukewang.com/587c76150001a0ab06000338-240-135.jpg
+28,C#面向对象编程,入门,39697,本系列教程主要是，带你学习C#面向对象编程的编程思想、编程技巧,//img1.mukewang.com/58ab9ee00001207406000338-240-135.jpg
+29,vagrant打造跨平台可移动的开发环境,高级,10213,Vgarant是开发者必备利器之一，本课程主要分为理论和实践两部分,//img3.mukewang.com/58aa91850001a4f406000338-240-135.jpg

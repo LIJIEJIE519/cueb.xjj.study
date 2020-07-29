@@ -1,0 +1,78 @@
+#数据分析
+
+import pandas as pd
+import numpy as np
+from pandas import DataFrame
+
+data = np.arange(16)
+data = data.reshape((4,4))
+	#构建二维表
+df = DataFrame(data=data,index=['a','b','c','d'],columns=['one','two','three','four'])
+
+print(df.drop('b'))  		#删除index行
+df.drop('two',axis = 1) 	#按列执行删除
+
+jobInf = DataFrame([position,company])
+#数据框的转置
+jobInf = jobInf.T
+jobInf.columns = ['职位','公司']
+
+构建4行2列二维表
+df = DataFrame(				
+    [
+	[1.4,np.nan],
+    [7.1,-4],
+    [np.nan,np.nan],
+    [0.75,-1]
+    ],
+    index=['a','b','c','d'],
+    columns = ['one','two']
+)
+df.sum()
+df.mean()
+df.cumsum()					#累计求和
+df.describe()    			#重要，描述性的统计分析
+
+from pandas import Series
+
+o = Series([1,2,3,2,2,3])
+o.unique()					#唯一值
+o.value_counts()			#value_counts  频率统计
+
+o2 = Series([2,4,5,6],index = ['7/1','7/2','7/3','7/4'])
+
+
+	#读取CSV文件
+import pandas as pd
+df = pd.read_csv('data/BankData.csv')
+
+pd.read_table('data/BankData.csv',sep=',')   		#读txt,指定分隔符
+df.head()
+
+df = pd.read_csv('data/BankData_1.csv',header=None)		#不读头部
+df.head()
+mylist = ['分行编号','不良贷款','各项贷款余额','本年累计应收贷款','贷款项目个数','本年固定资产投资额']
+df = pd.read_csv('data/BankData_1.csv',header=None,names=mylist)
+df.head()
+
+	#保存--csv
+#pip install lxml
+df.to_csv("data/mycsv1.csv",encoding='GBK')
+
+
+
+	#读取excel
+#pip install xlrd
+#pip install openpyxl
+import pandas as pd
+
+xls = pd.ExcelFile('data/BankData.xlsx')
+xls_data = xls.parse("bankdata")
+xls_data.head()
+
+	#保存--xlsx
+xls_data.to_excel('data/mydata2.xlsx')
+
+xls_data['不良贷款（亿元）'].sum()
+xls_data.describe()
+

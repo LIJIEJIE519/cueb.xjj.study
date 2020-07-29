@@ -1,0 +1,25 @@
+scrapy startproject JDCrawler				--》新建项目	
+scrapy genspider -t basic name .com			--》建爬虫类
+scrapy crawl name							--》运行程序
+
+
+
+settings.py
+--------------------------------------------------------------------
+54--57行--》打开注解
+DOWNLOADER_MIDDLEWARES = {
+   'JDCrawler.middlewares.JdcrawlerDownloaderMiddleware': 543,
+}
+
+67--69行
+ITEM_PIPELINES = {
+   'JDCrawler.pipelines.JdcrawlerPipeline': 300,
+}
+还可以打开cookies--false
+
+middlewares.py
+------------------------------------------------------------------------
+    def process_request(self, request, spider):
+        ua = random.choice(uas)
+        request.headers["user-agent"] = ua
+        return None

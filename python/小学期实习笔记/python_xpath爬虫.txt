@@ -1,0 +1,41 @@
+#pip install lxml
+from lxml import etree
+import requests
+
+url = 'http://www.baidu.com/'
+res = requests.get(url)
+res.encoding = 'gbk'
+print(res)						#打印状态码
+
+root = etree.HTML(res.text)
+position = root.xpath('//div[@class="el"]/p/span/a/@title')     #xpath获取节点
+print(position)
+
+
+from lxml import etree
+import requests
+import pandas as pd
+import time
+
+jobInfoAll = DataFrame()		#设置数据框
+for i in range(1,6):
+    url = 'https://search.51job.com/list/010000,000000,0000,32,9,99,Java%25E5%25BC%2580%25E5%258F%2591,2,' + str(i) + ".html"  
+    
+    res2 = requests.get(url)				#请求访问
+    res2.encoding = 'gbk'					#设置编码，防止中文乱码
+    root = etree.HTML(res2.text)			#
+    
+    position = root.xpath('//div[@class="el"]/p/span/a/text()')     #xpath获取节点
+    company = root.xpath('//div[@class="el"]/span[@class="t2"]/a/@title')
+    place = root.xpath('//div[@class="el"]/span[@class="t3"]/text()')
+    salary = root.xpath('//div[@class="el"]/span[@class="t4"]/text()')
+
+    jobInfo = DataFrame([position,company,place,salary]).T
+    jobInfo.columns = ['职位名','公司名','地点','薪资']
+    jobInfoAll = pd.concat([jobInfoAll, jobInfo])			#连接数据框
+    time.sleep(2)
+
+jobInfoAll.to_excel('jobINfoAll.xlsx')						#保存为excel
+
+
+
