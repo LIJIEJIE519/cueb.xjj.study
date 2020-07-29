@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<title>首都经济贸易大学搜索引擎</title>
+
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen"/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+</head>
+<body>
+<!-- header -->
+<div class="header_bg">
+    <div class="container">
+        <!-----start-header----->
+        <div class="header">
+            <div class="logo" style="width: 160px; margin-top: 15px">
+                <a href="index.html"><img src="images/logo.png" alt=" "/></a>
+            </div>
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="act"><a href="index.html"><img src="images/main.png"></a></li>
+                        <li><a href="#">
+                            <iframe scrolling="no" src="https://tianqiapi.com/api.php?style=td&skin=pitaya&color=FFFFFF&city=北京"
+                                    frameborder="0" width="70" height="32" allowtransparency="true">
+                            </iframe>
+                        </a></li>
+                        <li><a href="#">换肤</a></li>
+                        <li><a href="/SESearchEngine/indexSearch.jsp?keys=北京">北京</a></li>
+                        <li><a href="/SESearchEngine/indexSearch.jsp?keys=首都经济贸易大学">首经贸</a></li>
+                        <li><a href="#">登录</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+        </div>
+    </div>
+</div>
+<div class="header_bottom">
+</div>
+
+<div class="search" align="center">
+    <form action="indexSearch.jsp" method="GET">
+        <input type="text" name="keys" size=50 class="seaValue" maxlength="1000">
+        <input type="submit" value="搜  索" class="seaBtn">
+    </form>
+</div>
+
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear'
+        };
+        $().UItoTop({easingType: 'easeOutQuart'});
+
+    });
+</script>
+<a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+</body>
+</html>

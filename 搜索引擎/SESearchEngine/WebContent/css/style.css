@@ -1,0 +1,150 @@
+html, body{
+    font-size: 100%;
+	background:	#fff;
+	font-family: 'Open Sans', sans-serif;
+}
+p{
+	margin:0;
+}
+h1,h2,h3,h4,h5,h6,a{
+	font-family: 'Raleway', sans-serif;
+	font-weight:300;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover{
+	text-decoration:none;
+} 
+.copyrights{
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+	font-size:0;
+	overflow:hidden;
+}
+/* start header */
+.header_bg{
+	background:#515c8e;
+	position: relative;
+}
+.logo{
+	position: absolute;
+	left: 0%;
+	right:2%;
+	z-index: 999;
+	top:-25px;
+	text-align: center;
+	width:14%;
+	margin: 0 auto;
+}
+.logo a img {
+    width: 100%;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+    padding: 0;
+}
+.navbar-default {
+    background: none;
+    border: none;
+    margin-bottom: 0;
+}
+.navbar-default .navbar-nav > li {
+    margin:0 1.8em 1em;
+}
+.navbar-default .navbar-nav > li:nth-child(3) {
+	margin: 0 2em 1em 1.4em;
+}
+.navbar-default .navbar-nav > li:nth-child(4){
+	margin-left: 400px;
+	//margin:0 .5em 1em 18.5em;
+}
+li.act a{
+	border-bottom:1px solid #fff;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size:1.2em;
+    padding:30px 10px 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+/*-- dropdown --*/
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+    background: none;
+}
+ul.multi-column-dropdown li {
+    list-style-type: none;
+}
+ul.multi-column-dropdown li a{
+	font-size:1em;
+	color:#000;
+	text-decoration:none;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+ul.multi-column-dropdown li a {
+    padding:0.3em 1.5em;
+    display: block;
+}
+.columns-3 {
+    border-radius: 0;
+    margin: 0;
+    top: 110%;
+    left: -17%;
+}
+/*-- //dropdown --*/
+/*-- banner-info --*/
+.banner-info {
+    margin: 0 auto;
+    padding: 35em 0 0;
+    width: 85%;
+}
+.dummy_text {
+    padding: 2em;
+    background:rgba(255, 255, 255, 0.38);
+}
+.dummy_text h1 {
+    font-size: 2em;
+    color: #fff;
+    margin: 0;
+    line-height: 1.5em;
+	text-align:center;
+	position:relative;
+	padding-left: 2em;
+}
+
+.header_bottom {
+	position: absolute;
+	width: 100%;
+	background: url(../images/vect.png);
+	height: 40px;
+}
+.bg {
+	width : 80%;
+	height: 60px;
+	margin-left:10%;
+	margin-top: 20px;
+}
+.search{
+	margin-top: 140px;
+}
+.seaValue{
+	width: 500px;
+	height: 30px;
+}
+.seaBtn{
+	background: #9F79EE;
+	width: 70px;
+	height: 35px;
+	font-size: 16px;
+	color: white;
+}
+
