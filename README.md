@@ -54,7 +54,7 @@ git push -u cueb master
 
 
 
-### 4. 搜索引擎开发课程
+### 5. 搜索引擎开发课程
 
 - 大三学年上
 - Java，爬取北京cueb词条信息展示
@@ -64,6 +64,24 @@ git push -u cueb master
 ![image-20200729171733170](README.assets/image-20200729171733170.png)
 
 ![image-20200729171806056](README.assets/image-20200729171806056.png)
+
+
+
+
+
+### 6. 3dmax课程制作
+
+- 大三学年下
+
+结果展示
+
+<img src="README.assets/dandelion.jpg" alt="dandelion" style="zoom:50%;" /><img src="README.assets/效果图.jpg" alt="效果图" style="zoom:50%;" />
+
+
+
+
+
+
 
 
 
