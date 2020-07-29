@@ -1,0 +1,87 @@
+随机图片接口：
+------------------------------------
+https://uploadbeta.com/api/pictures/random/
+https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture
+https://source.unsplash.com/600x300/?book
+http://lorempixel.com/600/400/
+
+1. 权限问题：
+------------------------------
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <!-- 音乐读写权限 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 真机测试需要加上该权限否则会报错，refusing to reopen boot dex '/system/framework/hwframework.jar' -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+2. JDK
+--------------------------
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        applicationId "xjj.com.luomusic"
+        minSdkVersion 17
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+	
+	
+3. 广播
+---------------------------------
+	1. 	Intent创建广播—sendBroadcast(发送广播)
+		IntentFilter filter.addAction(广播过滤器)
+		extends BroadcastReceiver(广播接收器){
+			onReceive(){
+				intent.getAction(广播判断)
+			}
+		}
+		
+		
+4. android 的四种枚举Context.MODE_PRIVATE
+---------------------------------------------------
+	1. Context.MODE_PRIVATE：为默认操作模式，代表该文件是私有数据，只能被应用本身访问，
+		在该模式下，写入的内容会覆盖原文件的内容，如果想把新写入的内容追加到原文件中。可以使用Context.MODE_APPEND
+	2. Context.MODE_APPEND：模式会检查文件是否存在，存在就往文件追加内容，否则就创建新文件。
+		Context.MODE_WORLD_READABLE和Context.MODE_WORLD_WRITEABLE用来控制其他应用是否有权限读写该文件。
+	3. MODE_WORLD_READABLE：表示当前文件可以被其他应用读取；
+	4. MODE_WORLD_WRITEABLE：表示当前文件可以被其他应用写入。
+	
+	
+5、PendingIntent作用
+---------------------------------------
+	根据字面意思就知道是延迟的intent，主要用来在某个事件完成后执行特定的Action。
+	PendingIntent包含了Intent及Context，所以就算Intent所属程序结束，PendingIntent依然有效，可以在其他程序中使用。
+	常用在通知栏及短信发送系统中。	优势在于自己携带有Context对象，这样他就不必依赖于某个activity才可以存在。
+	
+6. <shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 渐变色处理 -->
+    <gradient
+        android:angle="135"
+        android:centerColor="#4CAF50"
+        android:endColor="#2E7D32"
+        android:startColor="#81C784"
+        android:type="linear" />
+</shape>
+
+7.Serializable简介
+--------------------------------
+https://blog.csdn.net/qq_34975710/article/details/53782872
+
+Bitmap：https://www.cnblogs.com/winter-is-coming/p/9112192.html
+
+8. okhttp:
+https://github.com/square/okhttp/wiki/Recipes
+
+
+9.网络音乐：
+----------------------------
+{"result":"SUCCESS","code":200,"data":[
+{"id":"004emQMs09Z1lz","name":"烟花易冷","time":263,"singer":"周杰伦","url":"https://api.bzqll.com/music/tencent/url?id=004emQMs09Z1lz&key=579621905",
+"pic":"https://api.bzqll.com/music/tencent/pic?id=004emQMs09Z1lz&key=579621905","lrc":"https://api.bzqll.com/music/tencent/lrc?id=004emQMs09Z1lz&key=579621905"},
+{"id":"001PGGQ81Xxw9l","name":"烟花易冷","time":316,"singer":"林志炫","url":"https://api.bzqll.com/music/tencent/url?id=001PGGQ81Xxw9l&key=579621905",
+"pic":"https://api.bzqll.com/music/tencent/pic?id=001PGGQ81Xxw9l&key=579621905","lrc":"https://api.bzqll.com/music/tencent/lrc?id=001PGGQ81Xxw9l&key=579621905"},
+{"id":"002HQJxz0YIrDY","name":"烟花易冷","time":226,"singer":"李维","url":"https://api.bzqll.com/music/tencent/url?id=002HQJxz0YIrDY&key=579621905",
+"pic":"https://api.bzqll.com/music/tencent/pic?id=002HQJxz0YIrDY&key=579621905","lrc":"https://api.bzqll.com/music/tencent/lrc?id=002HQJxz0YIrDY&key=579621905"},
