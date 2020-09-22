@@ -1,0 +1,40 @@
+<!--pages/main01/mindex01.wxml-->
+ <view class="page__bd">
+    <view class="weui-article">
+      <view class="weui-article__h1" style="  display: flex;align-items: center;justify-content: center; ">
+        第二步：“问”
+      </view>
+    </view>
+    <form bindsubmit="formSubmit" bindreset="formReset">
+
+
+      <view class="page-section page-section-gap">
+        <view class='naire'
+        wx:for="{{qnaire}}">
+          <view class='question'>{{item.question}}</view>
+          <view class="line"></view>
+          <radio-group class='radio-group' name='answer{{index}}' bindchange='radioChange'>
+            
+            <view wx:if="{{item.option != null}}">
+              <view class="radio" wx:for="{{item.option}}" wx:for-item="item_option" wx:for-index="item_index">
+                <label><radio value="{{item_index}}" />{{item_option}}</label>
+              </view>
+            </view>
+
+            <view wx:else>
+            <view class="radio" wx:for="{{option}}" wx:for-item="select">
+                <label><radio value="{{select.value}}" />{{select.name}}</label>
+              </view>
+            </view>
+          </radio-group>
+        </view>
+      </view>
+      <view class="btnNext">
+        <button formType="submit" type="primary" class="cbutton" style="width:300rpx;">下一步</button>
+        <!-- <navigator url="/pages/main03/mindex03" class="btnNav">
+          <button formType="submit" type="primary" class="cbutton" style="width:300rpx;">下一步</button>
+        </navigator>-->
+      </view> 
+    </form>
+      
+</view>

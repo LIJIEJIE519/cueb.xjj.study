@@ -1,0 +1,28 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/main01/mindex01",  
+    "pages/main02/mindex02",
+    "pages/main03/mindex03",
+    "pages/main04/mindex04",
+    "pages/test/test",
+    "pages/d_components/index", 
+    "pages/history/hindex",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "高血脂Demo",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "plugins": {
+    "WechatSI": {
+        "version": "0.3.4",
+        "provider": "wx069ba97219f66d99"
+    }
+}
+}

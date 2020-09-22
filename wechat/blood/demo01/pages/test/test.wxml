@@ -1,0 +1,4 @@
+<!-- <a class="weui-btn weui-btn_primary" bindtap="beginRecoder">开始录音</a>
+<a class="weui-btn weui-btn_primary" bindtap="endRecoder">结束录音</a> -->
+
+<view class="weui-btn weui-btn_primary" bindtouchstart="touchStart" bindtouchend="touchEnd">说话</view>

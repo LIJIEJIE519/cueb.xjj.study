@@ -1,0 +1,39 @@
+<!--pages/main01/mindex01.wxml-->
+ <view class="page__bd">
+        <view class="weui-article">
+            <view class="weui-article__h1" style="  display: flex;align-items: center;justify-content: center; ">
+              第三步：“中西结合”
+            </view>
+        </view>
+
+      <view class="weui-cells">
+      <view class="weui-cell">
+        <view class="weui-cell__bd">
+          <view class="weui-uploader">
+            <view class="weui-uploader__hd">
+              <view class="weui-uploader__title">请上传化验单</view>
+              <view class="weui-uploader__info">{{imageList.length}}/{{count[countIndex]}}</view>
+            </view>
+            <view class="weui-uploader__bd">
+              <view class="weui-uploader__files">
+                <block wx:for="{{imageList}}" wx:for-item="image">
+                  <view class="weui-uploader__file">
+                    <image class="weui-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="previewImage"></image>
+                  </view>
+                </block>
+              </view>
+              <view class="weui-uploader__input-box">
+                <view class="weui-uploader__input" bindtap="chooseImage"></view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      </view>
+      <view class="weui-cell btnNext">
+        <navigator url="/pages/main04/mindex04" class="btnNav">
+          <button type="primary" class="cbutton"
+          style="width:300rpx;">开始治疗</button>
+        </navigator>
+      </view>
+</view>

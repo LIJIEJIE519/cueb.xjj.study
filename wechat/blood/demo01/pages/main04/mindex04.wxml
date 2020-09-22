@@ -1,0 +1,14 @@
+<!--pages/main01/mindex01.wxml-->
+ <view class="page__bd">
+      <view class="weui-article">
+          <view class="weui-article__h1" style="  display: flex;align-items: center;justify-content: center; ">
+            诊断结果
+          </view>
+      </view>
+      <view class="weui-cell btnNext">
+        <navigator url="/pages/main04/mindex04" class="btnNav">
+          <button type="primary" class="cbutton"
+          style="width:300rpx;">历史比较</button>
+        </navigator>
+      </view>
+</view>

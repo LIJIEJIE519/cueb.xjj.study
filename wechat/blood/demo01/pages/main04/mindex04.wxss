@@ -1,0 +1,20 @@
+/* pages/main01/mindex01.wxss */
+page {
+  height: 100%;
+}
+.btnNext {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.btnNav{
+  position: fixed;
+  bottom: 80rpx;
+}
+.cbutton::after{
+  border: none; 
+}
+.cbutton {
+  width:400rpx;
+  border-radius: 30px;
+}
