@@ -26,7 +26,7 @@ Page({
         })
         const file = res.tempFiles[0].path
         wx.uploadFile({
-          url: 'http://127.0.0.1:9999/uploadImg',
+          url: 'http://81.70.101.221:9999/uploadImg',
           filePath: res.tempFilePaths[0],
           name: 'file',
           success (res){

@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <view>
+    <!-- <a class="weui-btn weui-btn_primary" bindtap="main01">开始治疗</a> -->
+    <view style="text-align:center;">{{currentText}}</view>
+    <view class="main_img">
+      <image src="/images/index.jpg" />
+    </view>
+    <navigator url="../history/hindex">
+      <a class="weui-btn weui-btn_disabled weui-btn_primary">历史结果</a>
+    </navigator>
+  </view>
+  <view style="height:100px;"></view>
+</view>
